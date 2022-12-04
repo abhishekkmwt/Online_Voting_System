@@ -1,0 +1,149 @@
+@charset "UTF-8";
+img{
+  max-width: 100%;
+  height: auto;
+  margin-top: 80px;
+}
+nav{
+	background-color:#F39C12  ;
+	color:#D7DBDD;
+}
+a.nav-link{
+	padding:20px !important;
+	color:white;
+}
+a.active{
+	background-color: #DC7633 !important;
+    color: white !important;
+    border: 2px #DC7633;
+    border-radius: 5px;
+}
+a:hover {
+  background-color: #DC7633 !important;
+  color: white !important;
+  border: 1px #DC7633;
+  border-radius: 5px;
+}
+.form-container form{
+	padding:0;
+}
+.form-container{
+	width: 70%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    background-color: #1C2833;
+    border-radius: 5px;
+    margin-left: 10%;
+    margin-top: 70px;
+    padding-top: 15%;
+    padding-left: 30px;
+    padding-bottom: 15%;
+    padding-right: 30px;
+    color: #ECF0F1;
+    background-image: url(https://img.freepik.com/free-vector/decorative-tricolor-indian-flag-theme-texture_1055-7757.jpg?w=740&t=st=1669658679~exp=1669659279~hmac=3086e4c…);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.form-container h3{
+	margin-left:0;
+	color: #273746;
+}
+
+.form-elements{
+	font-size:25px;
+	margin-left:0;
+	margin-top:20px;
+	margin-bottom:20px;
+	border:3px;
+	border-radius:7px;
+	border-color:#F39C12;
+	height:50px;
+}
+
+.form-label{
+	margin-left:0;
+	color: #273746;
+}
+
+.form-input{
+	text-align: center;
+    background-color: #f7f7f7;
+    width: 80%;
+    border-color: #273746 !important;
+    font-size: 20px;
+}
+
+.form-button{
+	background-color: #4d780d;
+    width: 30%;
+    cursor: pointer !important;
+    font-size: 20px;
+    color: white;
+}
+
+.form-container a{
+	color:black;
+	cursor:pointer;
+	margin-top:35px;
+}
+.index-a{
+	color: white !important;
+}
+.about{
+	font-family: Helvetica;
+    width: auto;
+    height: 100vh;
+    padding-left: 20px;
+    opacity: 0.8;
+    background-color: #FFF7E9;
+    padding-top: 5%;
+    font-size: 25px!important;
+}
+.about p{
+	font-weight: bold;
+	margin-bottom: 1rem;
+    font-size: 20px;
+    text-align: center;
+    padding-left:10%;
+    padding-right:10%;
+}
+.about .col-sm-6 img{
+	width:400px;
+	height:300px;
+	margin-left:15%;
+	border-radius:10px;
+}
+.about h1{
+	font-weight: bold;
+	margin-bottom:30px;
+	text-decoration:underline;
+}
+.about .col-sm-6 h3{
+	font-weight: bold;
+	text-decoration:underline;
+	margin-top:20%;
+	margin-bottom:5%;
+}
+.table{
+    
+    justify-content: center;
+    align-items: center;
+    margin-top: 2%;
+    width: 70%;
+    margin-left: 15%;
+    background-color:#FEDDAD;
+}
+
+.table img{
+	margin-top:0;
+	height:100px;
+	width:100px;
+	justify-content: center;
+}
+
+.table td,th{
+	padding: 10px 60px;
+	font-weight: bold;
+}
